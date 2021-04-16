@@ -1,0 +1,172 @@
+The program has started.
+
+This program will take graph input from a file
+and attempt to compute a Hamiltonian cycle.
+
+Please enter the name of the graph file: Input: graph.dat
+
+
+Graph 1 Input
+4 5
+1 2
+2 3
+2 4
+3 4
+3 1
+
+Graph 1 Vertices
+1
+2
+3
+4
+
+Graph 1 Edges
+1 2
+2 3
+2 4
+3 4
+3 1
+
+Graph 1 Adjacency Matrix
+0 1 1 0 
+1 0 1 1 
+1 1 0 1 
+0 1 1 0 
+
+Graph 1 Path Build 
+Add vertex 1
+
+Hamiltonian cycle: 1 2 4 3 1
+
+
+
+
+Graph 2 Input
+5 6
+1 2
+1 4
+2 3
+2 5
+4 5
+3 4
+
+Graph 2 Vertices
+1
+2
+3
+4
+5
+
+Graph 2 Edges
+1 2
+1 4
+2 3
+2 5
+4 5
+3 4
+
+Graph 2 Adjacency Matrix
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0 
+1 0 1 0 1 
+0 1 0 1 0 
+
+Graph 2 Path Build 
+Add vertex 1
+
+No Hamiltonian cycle.
+
+
+
+
+Graph 3 Input
+5 7
+1 2
+2 3
+1 4
+2 4
+2 5
+3 5
+4 5
+
+Graph 3 Vertices
+1
+2
+3
+4
+5
+
+Graph 3 Edges
+1 2
+2 3
+1 4
+2 4
+2 5
+3 5
+4 5
+
+Graph 3 Adjacency Matrix
+0 1 0 1 0 
+1 0 1 1 1 
+0 1 0 0 1 
+1 1 0 0 1 
+0 1 1 1 0 
+
+Graph 3 Path Build 
+Add vertex 1
+
+Hamiltonian cycle: 1 2 3 5 4 1
+
+
+
+
+Graph 4 Input
+3 2
+1 2
+2 3
+
+Graph 4 Vertices
+1
+2
+3
+
+Graph 4 Edges
+1 2
+2 3
+
+Graph 4 Adjacency Matrix
+0 1 0 
+1 0 1 
+0 1 0 
+
+Graph 4 Path Build 
+Add vertex 1
+
+No Hamiltonian cycle.
+
+
+
+
+Graph 5 Input
+2 1
+1 2
+
+Graph 5 Vertices
+1
+2
+
+Graph 5 Edges
+1 2
+
+Graph 5 Adjacency Matrix
+0 1 
+1 0 
+
+Graph 5 Path Build 
+Graph does not contain enough vertices to produce a Hamiltonian cycle
+
+No Hamiltonian cycle.
+
+
+
